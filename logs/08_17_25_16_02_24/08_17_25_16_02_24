@@ -1,0 +1,7 @@
+[ 2025-08-17 16:02:24,372] 148 INFO Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-08-17 16:02:24,372] 160 INFO NumExpr defaulting to 8 threads.
+[ 2025-08-17 16:02:26,422] 14 INFO Try exception block 
+[ 2025-08-17 16:02:27,726] 65 INFO Performed train test split on the dataframe
+[ 2025-08-17 16:02:27,726] 67 INFO Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-08-17 16:02:27,727] 75 INFO Exporting train and test file path.
+[ 2025-08-17 16:02:27,755] 84 INFO Exported train and test file path.

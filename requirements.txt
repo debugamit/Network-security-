@@ -1,0 +1,15 @@
+python-dotenv # used for environment variables
+pandas # used for data manipulation
+numpy  # used for numerical operations
+certifi # used for SSL certificates
+pymongo
+pymongo[srv]==3.6 # used for MongoDB operations
+scikit-learn # used for machine learning operations
+dill 
+pyaml # used for YAML file operations
+
+
+
+##-e .
+
+

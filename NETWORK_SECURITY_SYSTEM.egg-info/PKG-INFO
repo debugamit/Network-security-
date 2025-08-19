@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: NETWORK-SECURITY-SYSTEM
+Version: 0.0.1
+Author: Amit rout
+Author-email: arout432@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
