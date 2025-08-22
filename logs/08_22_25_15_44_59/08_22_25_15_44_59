@@ -1,0 +1,29 @@
+[ 2025-08-22 15:44:59,465] 148 INFO Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-08-22 15:44:59,465] 160 INFO NumExpr defaulting to 8 threads.
+[ 2025-08-22 15:45:01,749] 21 INFO Initiate the data ingestion
+[ 2025-08-22 15:45:03,244] 65 INFO Performed train test split on the dataframe
+[ 2025-08-22 15:45:03,244] 67 INFO Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-08-22 15:45:03,244] 75 INFO Exporting train and test file path.
+[ 2025-08-22 15:45:03,275] 84 INFO Exported train and test file path.
+[ 2025-08-22 15:45:03,275] 23 INFO Data Initiation Completed
+[ 2025-08-22 15:45:03,275] 29 INFO Initiate the data Validation
+[ 2025-08-22 15:45:03,326] 32 INFO Required number of columns:2
+[ 2025-08-22 15:45:03,326] 33 INFO Data frame has columns:31
+[ 2025-08-22 15:45:03,326] 32 INFO Required number of columns:2
+[ 2025-08-22 15:45:03,326] 33 INFO Data frame has columns:31
+[ 2025-08-22 15:45:03,386] 31 INFO data Validation Completed
+[ 2025-08-22 15:45:03,402] 36 INFO data Transformation started
+[ 2025-08-22 15:45:03,402] 67 INFO Entered initiate_data_transformation method of Datatransformation class
+[ 2025-08-22 15:45:03,402] 69 INFO Starting the data transformation process
+[ 2025-08-22 15:45:03,402] 52 INFO Entered get_data_transformer_object method of Trnasformation class
+[ 2025-08-22 15:45:03,402] 57 INFO Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-08-22 15:45:03,420] 46 INFO Entered the save_object method of MainUtils class
+[ 2025-08-22 15:45:03,422] 50 INFO Exited the save_object method of MainUtils class
+[ 2025-08-22 15:45:03,422] 46 INFO Entered the save_object method of MainUtils class
+[ 2025-08-22 15:45:03,423] 50 INFO Exited the save_object method of MainUtils class
+[ 2025-08-22 15:45:03,425] 40 INFO data Transformation completed
+[ 2025-08-22 15:45:03,425] 42 INFO Model training started
+[ 2025-08-22 15:46:37,927] 46 INFO Entered the save_object method of MainUtils class
+[ 2025-08-22 15:46:37,927] 50 INFO Exited the save_object method of MainUtils class
+[ 2025-08-22 15:46:37,927] 153 INFO Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\08_22_2025_15_44_59\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9913637276561559, precision_score=0.9893766285828823, recall_score=0.993358824713222), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9728601252609603, precision_score=0.9652029826014913, recall_score=0.9806397306397306))
+[ 2025-08-22 15:46:37,927] 46 INFO Model Training artifact created

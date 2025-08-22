@@ -5,9 +5,11 @@ certifi # used for SSL certificates
 pymongo
 pymongo[srv]==3.6 # used for MongoDB operations
 scikit-learn # used for machine learning operations
-dill 
+mlflow
 pyaml # used for YAML file operations
-
+dagshub
+fastapi # used for building APIs
+uvicorn # used for serving FastAPI applications
 
 
 ##-e .

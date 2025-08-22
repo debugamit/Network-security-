@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Data%20Science/project%20of%20genai/network%20security%20system/mlruns/0/models/m-b097bd15ee4647bc8bf2b3c7018fbbdf/artifacts
+creation_timestamp: 1755858358397
+experiment_id: '0'
+last_updated_timestamp: 1755858360962
+model_id: m-b097bd15ee4647bc8bf2b3c7018fbbdf
+model_type: null
+name: model
+source_run_id: 48eeb4f5e8cb45ca8a38b8ceea1996dd
+status: 2
+status_message: null
